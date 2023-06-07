@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form1">
+
+        <!-- <img src="banner.jpg" alt="Banner" width="1600px" height="700px">         -->
+        <form class="container">
+
+            <h3>Login Details</h3>
+            <div class="col-2">
+                <label for="Name">Enter Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="start with alphabet">
+            </div>
+            <div class="col-2">
+                <label for="email"> Enter your Email:</label>
+                <input type="email" name="email" id="email" placeholder="@ is compulsory">
+            </div>
+
+
+            <div class="col-2">
+                <!-- <h5>Choose your Password:</h5> -->
+                <label for="Password"> choose Password:</label>
+                <input type="password" name="password" id="password" placeholder="contains 8 character">
+            </div>
+            <div class="col-2">
+                <label for="Contact Number">Contact Number:</label>
+                <input type="tel" id="Contact" name="Contact" placeholder="do not add 0 or +91">
+            </div>
+            
+                <div class="col-2">
+                    <label for="Gender">Gender:</label>
+                    <div class="col-3">
+                        <input type="radio"  name="Gender" id="Male"  >
+                    <label for="Male">Male</label>
+                    <input type="radio"  name="Gender" id="Female">
+                    <label for="Female">Female</label>
+                    <input type="radio"  name="Gender" id="TransGender">
+                    <label for="TransGender">TransGender</label>
+                    </div>
+                </div>
+
+            <div class="col-2">
+                <label for="Form">upload Your cv:</label>
+                <input type="file" id="file" name="file" placeholder="max size is 10mb">
+            </div>
+            <div class="col-2">
+                <label for="week">Enter your week:</label>
+                <input type="week" id="week" name="week">
+            </div>
+            <div class="col-2">
+                <label for="Birthday">Birthday Month:</label>
+                <input type="month" id="month" name="month">
+            </div>
+
+            <div class="col-2">
+                <label for="time">Enter your time:</label>
+                <input type="time">
+            </div>
+            <div class="col-2">
+                <label for="url">Enter your url:</label>
+                <input type="url" name="url" id="url" placeholder="starts with https://">
+            </div>
+
+            <div class="col-2">
+
+                <label for="Range">Range:</label>
+                <input type="range" id="Range" name="Range">
+            </div>
+            <div class="col-2">
+                
+                    <label for="Country">Choose a Country and code:</label>
+                    <div class="col-3">
+                        <select name="India" id="India" style="border-color: #c7ff00;;
+                        border-radius: 3px; height: 26px;">
+                            <option value="country">country</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                        <option value="bharat">bharat</option>
+                        </select>
+                        <input type="number" placeholder="add + before number">
+                    </div>
+
+            
+
+            </div>
+            <div class="col-2">
+                <label for="message">Describe yourself!:</label>
+                <textarea name="Tell me Something about Yourself" id="message" cols="30" rows="5" placeholder="limit word:100"></textarea>
+            </div>
+            <div class="col-2">
+                <label for="Reset">Reset Now:</label>
+                <input type="Reset" id="reset" style="height: 26px; border-color: #c7ff00;;
+                border-radius: 3px;">
+            </div>
+
+
+            <div class="form2">
+                <button type="submit " style="    border-color:#c7ff00;;
+                border-radius: 3px;
+                height: 26px;">Submit youn form</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
