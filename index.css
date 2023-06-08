@@ -1,0 +1,61 @@
+.col2{
+    width: 200px;
+    
+}
+.col3{
+    width: 800px;
+    height: 40px;
+}
+.col1{
+    display: flex;
+    background-color: green;
+}
+.col-4 {
+    background-color: orange;
+    margin-top: 0%;
+    left: 0;
+    right: 0;
+    top: 5px;
+    
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+.col-4 * {
+    display: inline;
+    }
+.col-4 li {
+    margin: 20px;
+    }
+.col-4 li a {
+    color: blue;
+    text-decoration: none;
+    }
+.container{
+    width:100%;
+}
+.form-2{
+    margin: 0px auto;
+    width: 27%;
+}
+.form2 input[type=email],
+.form2 input[type=tel]{
+    width: 70%;
+    height: 20px;
+    font-family: myFont;
+    border: 3px solid #3396a3;
+}
+.col-3 {
+    display: flex;
+    margin: 0 0 15px 0;
+}
+label{
+    width: 30%;
+}
+body{
+    margin: 0px;
+}
+.col5{
+    width: 200px;
+    height: 100px;
+}
