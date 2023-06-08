@@ -1,0 +1,147 @@
+@font-face {
+    font-family: myFont;
+    src: url("Roboto-Regular.ttf");
+}
+
+body {
+    margin: 0px;
+}
+
+.form2 {
+    margin: 0px auto;
+    width: 27%;
+}
+
+.form2 input[type=email],
+.form2 input[type=tel],
+.form2 input[type=text],
+.form2 input[type=password],
+.form2 input[type=url] {
+    width: 70%;
+    height: 20px;
+    font-family: myFont;
+    border: 3px solid #3396a3;
+}
+
+.form2 input[type=file] {
+    width: 70%;
+    height: 28px;
+    font-family: myFont;
+}
+
+.form2 input[type="submit"] {
+    font-family: myFont;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.form2 input[type=range] {
+
+    width: 70%;
+    height: 28px;
+}
+
+
+
+
+.form3 {
+    text-align: center;
+    height: 28px;
+
+}
+
+.col-3 {
+    display: flex;
+    margin: 0 0 15px 0;
+}
+
+.container {
+    width: 100%;
+
+}
+
+label {
+    width: 30%;
+    font-family: myFont;
+}
+
+
+.form2 input[type="radio"] {
+
+    margin-bottom: 15px;
+    height: 12px;
+}
+
+.col-4 {
+    width: 70%;
+    height: 22px;
+    display: flex;
+
+
+}
+
+.form2 input[type=number] {
+    height: 17px;
+    width: 70%;
+    border: 3px solid #3396a3;
+
+}
+
+button {
+    border: 3px solid #3396a3;
+}
+
+.form3 input[type=reset] {
+    width: 19%;
+    height: 23px;
+    font-family: myFont;
+    border: 3px solid #3396a3;
+}
+
+.form2 input[type=color] {
+    width: 70%;
+    height: 28px;
+    font-family: myFont;
+    border: 3px solid #3396a3;
+}
+
+select {
+    height: 28px;
+    width: 70%;
+    border: 3px solid #3396a3;
+}
+
+.col-4 {
+    height: 28px;
+}
+
+.form2 input[type=checkbox] {
+
+    height: 14px;
+
+
+}
+
+.form2 input[type=image] {
+
+    height: 34px;
+    width: 16%;
+
+}
+
+.form2 button[type=submit] {
+    width: 19%;
+    height: 23px;
+    font-family: myFont;
+    border: 3px solid #3396a3;
+}
+
+.form2 input[type=month] {
+    width: 70%;
+    height: 22px;
+    font-family: myFont;
+    border: 3px solid #3396a3;
+}
